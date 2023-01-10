@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "89BF9928-2447-4B06-ADEE-94FF780B393F"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27224FC4-1D32-4064-BC41-7C57853BC7DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stream Chat/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "presentChatList(animated:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "27224FC4-1D32-4064-BC41-7C57853BC7DA - c48c7ce704de06aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stream_Chat.LoginViewController.presentChatList(animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Stream Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurelioleclarke/Documents/GitHub/Stream-Chat/Stream%20Chat/Stream%20Chat/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "480">
+               </Location>
+               <Location
+                  uuid = "27224FC4-1D32-4064-BC41-7C57853BC7DA - c48c7ce704de06aa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Stream_Chat.LoginViewController.presentChatList(animated: Swift.Bool) -&gt; ()"
+                  moduleName = "Stream Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurelioleclarke/Documents/GitHub/Stream-Chat/Stream%20Chat/Stream%20Chat/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
+                  offsetFromSymbolStart = "548">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "83379D78-EF62-4442-98F8-87C9DE58B4B1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stream Chat/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "109"
+            endingLineNumber = "109"
+            landmarkName = "didTapCompose()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "83379D78-EF62-4442-98F8-87C9DE58B4B1 - 8e5aa3a4288a0428"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Stream_Chat.LoginViewController.didTapCompose() -&gt; ()"
+                  moduleName = "Stream Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurelioleclarke/Documents/GitHub/Stream-Chat/Stream%20Chat/Stream%20Chat/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "83379D78-EF62-4442-98F8-87C9DE58B4B1 - 8e5aa3a4288a0428"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Stream_Chat.LoginViewController.didTapCompose() -&gt; ()"
+                  moduleName = "Stream Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurelioleclarke/Documents/GitHub/Stream-Chat/Stream%20Chat/Stream%20Chat/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "109"
+                  endingLineNumber = "109"
+                  offsetFromSymbolStart = "788">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "63DE1DD1-BABC-44D0-AFF8-3A3D075701DA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Stream Chat/Controllers/LoginViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "didTapCompose()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "63DE1DD1-BABC-44D0-AFF8-3A3D075701DA - 8e5aa3a4288a04ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIAlertAction) -&gt; () in Stream_Chat.LoginViewController.didTapCompose() -&gt; ()"
+                  moduleName = "Stream Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurelioleclarke/Documents/GitHub/Stream-Chat/Stream%20Chat/Stream%20Chat/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "111"
+                  endingLineNumber = "111"
+                  offsetFromSymbolStart = "856">
+               </Location>
+               <Location
+                  uuid = "63DE1DD1-BABC-44D0-AFF8-3A3D075701DA - 342587d85862ec04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (__C.UIAlertAction) -&gt; () in Stream_Chat.LoginViewController.didTapCompose() -&gt; ()"
+                  moduleName = "Stream Chat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurelioleclarke/Documents/GitHub/Stream-Chat/Stream%20Chat/Stream%20Chat/Controllers/LoginViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "112"
+                  endingLineNumber = "112"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -7,20 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D31F6D14295DAC05006FF6AD /* StreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31F6D13295DAC05006FF6AD /* StreamManager.swift */; };
+		D3374A86296558FA00B5963A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3374A85296558FA00B5963A /* SettingsViewController.swift */; };
+		D3374A882965592300B5963A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3374A872965592300B5963A /* TabBarViewController.swift */; };
+		D35C91C32951B5F100080755 /* StreamChat in Frameworks */ = {isa = PBXBuildFile; productRef = D35C91C22951B5F100080755 /* StreamChat */; };
+		D35C91C52951B5F100080755 /* StreamChatUI in Frameworks */ = {isa = PBXBuildFile; productRef = D35C91C42951B5F100080755 /* StreamChatUI */; };
 		D374CF922948726900C5C2BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374CF912948726900C5C2BD /* AppDelegate.swift */; };
 		D374CF942948726900C5C2BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374CF932948726900C5C2BD /* SceneDelegate.swift */; };
-		D374CF962948726900C5C2BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374CF952948726900C5C2BD /* ViewController.swift */; };
-		D374CF992948726900C5C2BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D374CF972948726900C5C2BD /* Main.storyboard */; };
+		D374CF962948726900C5C2BD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D374CF952948726900C5C2BD /* LoginViewController.swift */; };
 		D374CF9B2948726900C5C2BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D374CF9A2948726900C5C2BD /* Assets.xcassets */; };
 		D374CF9E2948726900C5C2BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D374CF9C2948726900C5C2BD /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D31F6D13295DAC05006FF6AD /* StreamManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamManager.swift; sourceTree = "<group>"; };
+		D3374A85296558FA00B5963A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D3374A872965592300B5963A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		D374CF8E2948726900C5C2BD /* Stream Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stream Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D374CF912948726900C5C2BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D374CF932948726900C5C2BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D374CF952948726900C5C2BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D374CF982948726900C5C2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D374CF952948726900C5C2BD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D374CF9A2948726900C5C2BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D374CF9D2948726900C5C2BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D374CF9F2948726900C5C2BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,12 +37,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D35C91C52951B5F100080755 /* StreamChatUI in Frameworks */,
+				D35C91C32951B5F100080755 /* StreamChat in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D31F6D0F295DABA4006FF6AD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				D374CF9F2948726900C5C2BD /* Info.plist */,
+				D374CF9C2948726900C5C2BD /* LaunchScreen.storyboard */,
+				D374CF912948726900C5C2BD /* AppDelegate.swift */,
+				D374CF932948726900C5C2BD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		D31F6D10295DABAF006FF6AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D374CF952948726900C5C2BD /* LoginViewController.swift */,
+				D3374A85296558FA00B5963A /* SettingsViewController.swift */,
+				D3374A872965592300B5963A /* TabBarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D31F6D11295DABB6006FF6AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D374CF9A2948726900C5C2BD /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D31F6D12295DABF3006FF6AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D31F6D13295DAC05006FF6AD /* StreamManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		D374CF852948726800C5C2BD = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +101,10 @@
 		D374CF902948726900C5C2BD /* Stream Chat */ = {
 			isa = PBXGroup;
 			children = (
-				D374CF912948726900C5C2BD /* AppDelegate.swift */,
-				D374CF932948726900C5C2BD /* SceneDelegate.swift */,
-				D374CF952948726900C5C2BD /* ViewController.swift */,
-				D374CF972948726900C5C2BD /* Main.storyboard */,
-				D374CF9A2948726900C5C2BD /* Assets.xcassets */,
-				D374CF9C2948726900C5C2BD /* LaunchScreen.storyboard */,
-				D374CF9F2948726900C5C2BD /* Info.plist */,
+				D31F6D12295DABF3006FF6AD /* Model */,
+				D31F6D0F295DABA4006FF6AD /* App */,
+				D31F6D10295DABAF006FF6AD /* Controllers */,
+				D31F6D11295DABB6006FF6AD /* Resources */,
 			);
 			path = "Stream Chat";
 			sourceTree = "<group>";
@@ -83,6 +125,10 @@
 			dependencies = (
 			);
 			name = "Stream Chat";
+			packageProductDependencies = (
+				D35C91C22951B5F100080755 /* StreamChat */,
+				D35C91C42951B5F100080755 /* StreamChatUI */,
+			);
 			productName = "Stream Chat";
 			productReference = D374CF8E2948726900C5C2BD /* Stream Chat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +157,9 @@
 				Base,
 			);
 			mainGroup = D374CF852948726800C5C2BD;
+			packageReferences = (
+				D35C91C12951B5F100080755 /* XCRemoteSwiftPackageReference "stream-chat-swift" */,
+			);
 			productRefGroup = D374CF8F2948726900C5C2BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +176,6 @@
 			files = (
 				D374CF9E2948726900C5C2BD /* LaunchScreen.storyboard in Resources */,
 				D374CF9B2948726900C5C2BD /* Assets.xcassets in Resources */,
-				D374CF992948726900C5C2BD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +186,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D374CF962948726900C5C2BD /* ViewController.swift in Sources */,
+				D374CF962948726900C5C2BD /* LoginViewController.swift in Sources */,
+				D31F6D14295DAC05006FF6AD /* StreamManager.swift in Sources */,
 				D374CF922948726900C5C2BD /* AppDelegate.swift in Sources */,
+				D3374A86296558FA00B5963A /* SettingsViewController.swift in Sources */,
+				D3374A882965592300B5963A /* TabBarViewController.swift in Sources */,
 				D374CF942948726900C5C2BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +198,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D374CF972948726900C5C2BD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D374CF982948726900C5C2BD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D374CF9C2948726900C5C2BD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,10 +332,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95S4N2TWZ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Stream Chat/Info.plist";
+				INFOPLIST_FILE = "Stream Chat/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -317,10 +359,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 95S4N2TWZ7;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Stream Chat/Info.plist";
+				INFOPLIST_FILE = "Stream Chat/App/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +399,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D35C91C12951B5F100080755 /* XCRemoteSwiftPackageReference "stream-chat-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/GetStream/stream-chat-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D35C91C22951B5F100080755 /* StreamChat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D35C91C12951B5F100080755 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChat;
+		};
+		D35C91C42951B5F100080755 /* StreamChatUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D35C91C12951B5F100080755 /* XCRemoteSwiftPackageReference "stream-chat-swift" */;
+			productName = StreamChatUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D374CF862948726800C5C2BD /* Project object */;
 }
